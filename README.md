@@ -1,47 +1,56 @@
-# Hisham Mohamed
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
+  <img src="assets/profile-header-light.svg" width="100%" alt="Hisham Mohamed — AI Engineer">
+</picture>
 
-**AI Engineer — Computer Vision & Machine Learning Systems**  
-Cairo, Egypt
+## 01 — Profile
 
-I build applied AI systems that connect models to real products: real-time video analytics, multimodal pipelines, document understanding, APIs, and deployment infrastructure.
+I am an **AI Engineer** focused on computer vision and machine learning systems. I build applied AI that moves beyond model experiments into reliable pipelines, APIs, backend services, and deployable products.
 
-My main focus is **computer vision and production-minded ML engineering**. I am also building deeper experience with **RAG and agentic AI systems**.
+My strongest work is in **real-time video analytics, multimodal vision, model integration, evaluation, and production-oriented ML engineering**. I am also developing deeper experience in RAG and tool-using agent systems.
 
-Currently open to **AI Engineer, Machine Learning Engineer, and Computer Vision Engineer** opportunities.
+Based in Cairo, Egypt. B.Sc. in Artificial Intelligence, 2026.
 
-## Selected work
+## 02 — Selected work
 
 ### VISION & DECISION (V&D)
-Industrial safety intelligence built around existing CCTV infrastructure. The system combines real-time detection and tracking with safety rules, incident evidence, alerts, and HSE review workflows for use cases including PPE, restricted zones, falls, and forklift–worker proximity.
+**Industrial safety intelligence for existing CCTV infrastructure.**
 
-**Work:** computer vision integration, real-time video pipelines, AI/backend integration, incident workflows, and production-readiness engineering.  
-**Stack:** Python, YOLO, OpenCV, ByteTrack, FastAPI, PostgreSQL, Redis, Docker  
-[Repository](https://github.com/s0ltan12/VisionSafe360)
+Edge-first video analytics for PPE monitoring, falls, restricted zones, and forklift–worker proximity. The system combines detection, tracking, temporal safety logic, incident evidence, alerts, and HSE review workflows.
+
+`Python` · `YOLO` · `OpenCV` · `ByteTrack` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker`
+
+[Repository →](https://github.com/s0ltan12/VisionSafe360)
 
 ### [AgriPheno Fusion](https://github.com/hishammohamed445/AgriPheno-Fusion)
-A multimodal crop-phenotyping system that combines RGB/NIR imagery with soil and weather measurements. It includes input validation, image-quality checks, vegetation analysis, NDVI features, sensor fusion, automated tests, a CLI, and a FastAPI service.
+**Multimodal crop phenotyping from RGB/NIR imagery and sensor data.**
 
-**Stack:** Python, OpenCV, NumPy, FastAPI, Pydantic, pytest, Docker, GitHub Actions
+A tested pipeline for image-quality checks, vegetation analysis, canopy cover, NDVI features, sensor fusion, structured outputs, CLI execution, and API delivery.
+
+`Python` · `OpenCV` · `NumPy` · `FastAPI` · `Pydantic` · `pytest` · `Docker` · `GitHub Actions`
 
 ### [Donut Invoice Intelligence](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
-An OCR-free document-understanding pipeline for extracting structured information from invoice and receipt images. The repository covers preprocessing, Donut fine-tuning, checkpointing, batch inference, API serving, and a lightweight client.
+**OCR-free document understanding for structured invoice extraction.**
 
-**Stack:** PyTorch, PyTorch Lightning, Transformers, Donut, FastAPI, Docker
+Covers preprocessing, Donut fine-tuning, checkpointing, batch inference, FastAPI serving, and a lightweight client for application integration.
 
-## Engineering focus
+`PyTorch` · `PyTorch Lightning` · `Transformers` · `Donut` · `FastAPI` · `Docker`
 
-- **Computer vision:** object detection, tracking, video analytics, image processing, multimodal imagery
-- **Machine learning:** PyTorch, scikit-learn, evaluation, training and inference pipelines
-- **AI systems:** FastAPI, REST APIs, PostgreSQL, Redis, Docker, Linux, GitHub Actions
-- **Data:** NumPy, Pandas, SQL, validation and reproducible workflows
-- **Currently developing:** RAG, tool-using agents, orchestration, and evaluation for agentic systems
+## 03 — Technical focus
 
-I care about systems that can be **measured, tested, deployed, and understood by the next engineer who works on them**.
+| Area | Working with |
+| --- | --- |
+| **Perception** | Object detection, tracking, video analytics, image processing, multimodal imagery |
+| **Models** | PyTorch, scikit-learn, YOLO, Transformers, training, inference, evaluation |
+| **Systems** | FastAPI, REST APIs, PostgreSQL, Redis, WebSockets, data validation |
+| **Delivery** | Docker, Linux, Git/GitHub, GitHub Actions, pytest, reproducible workflows |
+| **Developing** | RAG, vector retrieval, tool use, agent orchestration, evaluation |
 
-## Background
+I care about engineering that is **measurable, testable, maintainable, and understandable by the next engineer who works on it**.
 
-B.Sc. in Artificial Intelligence, Egyptian Russian University — 2026.
-
-## Contact
+## 04 — Contact
 
 [LinkedIn](https://www.linkedin.com/in/hisham-mohamed0) · [Email](mailto:hishamelbaaly@gmail.com)
+
+Open to **AI Engineer, Machine Learning Engineer, and Computer Vision Engineer** opportunities.

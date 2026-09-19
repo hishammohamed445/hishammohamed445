@@ -1,0 +1,13 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hesham profile assets preview</title>
+<style>
+:root{color-scheme:dark}body{margin:0;padding:38px;background:#0b0b0c;color:#f3f2ed;font:14px/1.5 ui-sans-serif,system-ui,sans-serif}h1{font-size:20px}h2{margin-top:38px;padding-bottom:8px;border-bottom:1px solid #2a2a2e;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9a9892}.row{display:flex;gap:22px;flex-wrap:wrap}.card{padding:16px;border:1px solid #2a2a2e;border-radius:12px;background:#111113}.card.light{background:#f5f3ed}.tag{display:block;margin-bottom:9px;color:#777;font:10px ui-monospace,monospace}img{max-width:100%;display:block}button{margin-left:10px;background:#19191b;color:#ddd;border:1px solid #333;border-radius:6px;padding:5px 10px;cursor:pointer}
+</style>
+<h1>profile assets / local QA</h1>
+<h2>hero <button id="replay">replay</button></h2>
+<div class="row"><div class="card"><span class="tag">dark</span><img class="hero" data-src="assets/hero-dark.svg" src="assets/hero-dark.svg" width="880"></div><div class="card light"><span class="tag">light</span><img class="hero" data-src="assets/hero-light.svg" src="assets/hero-light.svg" width="880"></div></div>
+<h2>signals</h2><div class="row"><div class="card"><img src="assets/focus-dark.svg" width="430"></div><div class="card"><img src="assets/toolchain-dark.svg" width="430"></div><div class="card light"><img src="assets/focus-light.svg" width="430"></div><div class="card light"><img src="assets/toolchain-light.svg" width="430"></div></div>
+<h2>project cards</h2><div class="row"><div class="card"><img src="assets/card-agripheno-dark.svg"></div><div class="card"><img src="assets/card-donut-dark.svg"></div><div class="card"><img src="assets/card-mini-agent-dark.svg"></div></div>
+<h2>portfolio cards</h2><div class="row"><div class="card"><img src="assets/card-summary-dark.svg"></div><div class="card"><img src="assets/card-languages-dark.svg"></div><div class="card light"><img src="assets/card-summary-light.svg"></div><div class="card light"><img src="assets/card-languages-light.svg"></div></div>
+<script>document.getElementById('replay').onclick=()=>document.querySelectorAll('.hero').forEach(x=>x.src=x.dataset.src+'?'+Date.now())</script>

@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "repo": "AgriPheno-Fusion",
+      "slug": "agripheno",
+      "status": "TESTED MVP",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "license": "MIT",
+      "ci": true,
+      "description": "RGB/NIR crop phenotyping with image quality checks, NDVI traits, sensor fusion, FastAPI delivery, tests and CI."
+    },
+    {
+      "repo": "Donut-Invoice-Intelligence",
+      "slug": "donut",
+      "status": "MODEL + SERVICE",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "license": "MIT",
+      "ci": true,
+      "description": "OCR-free document understanding pipeline covering preprocessing, Donut fine-tuning, inference, FastAPI serving and validation."
+    },
+    {
+      "repo": "mini-agent",
+      "slug": "mini-agent",
+      "status": "EARLY-STAGE LAB",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "license": null,
+      "ci": false,
+      "description": "Small FastAPI foundation for experiments with retrieval, tool use, agent loops and evaluation as the project grows."
+    }
+  ]
+}

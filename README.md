@@ -3,134 +3,140 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
-  <img src="assets/profile-header-dark.svg" width="100%" alt="Hisham Mohamed — AI Engineer">
+  <img src="assets/profile-header-dark.svg" width="100%" alt="Hesham Mohamed — AI Engineer">
 </picture>
 
 <br>
 
-<a href="https://github.com/hishammohamed445">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2800&pause=1000&color=8B5CF6&center=true&vCenter=true&width=900&lines=AI+Engineer+%C2%B7+Computer+Vision+%C2%B7+ML+Systems;Building+real-time+AI+from+model+to+product;Interested+in+RAG%2C+Agents%2C+and+Multimodal+Systems" alt="Hisham Mohamed focus">
-</a>
-
-<br>
-
-<a href="https://www.linkedin.com/in/hisham-mohamed0"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
-<a href="mailto:hishamelbaaly@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;
-<a href="https://github.com/hishammohamed445"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=hishammohamed445&style=flat&color=7c3aed&label=profile+views" alt="profile views">
+<a href="https://www.linkedin.com/in/hisham-mohamed0">LinkedIn</a>
+&nbsp;·&nbsp;
+<a href="mailto:hishamelbaaly@gmail.com">Email</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/hishammohamed445">GitHub</a>
 
 </div>
 
 ---
 
-## This is me
+## 01 / POSITION
 
-Hi, I'm **Hisham** — an AI Engineer based in Cairo, Egypt.
+I build AI systems where the model is only one part of the job: **input validation, perception, inference, evaluation, APIs, testing, and reproducible delivery**.
 
-I like working on the part of AI where a model stops being a notebook experiment and starts becoming a **real system**: video pipelines, inference services, APIs, data validation, event logic, deployment, and the engineering around the model.
+My strongest public work currently sits across **computer vision, multimodal data, document intelligence, and ML-backed services**. I care about making technical limits visible — if a benchmark is not reproducible, I would rather leave the number out than turn it into marketing.
 
-- I work mainly across **Computer Vision, Machine Learning, and applied AI systems**.
-- My strongest project work is in **real-time video analytics, multimodal vision, and document intelligence**.
-- I built and contributed to **VISION & DECISION**, an industrial safety platform using existing CCTV for PPE, fall, restricted-zone, and forklift-worker risk monitoring.
-- I care about **reproducible evaluation, clear failure boundaries, testing, and software another engineer can actually run**.
-- I'm currently going deeper into **RAG, tool-using agents, orchestration, and evaluation for agentic systems**.
-- B.Sc. in Artificial Intelligence, **2026**.
-
-<br>
-
-<div align="center">
-
-## my stack
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,fastapi,postgres,redis,docker,linux,git,github,githubactions&perline=6" alt="Hisham Mohamed technical stack">
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/engineering-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/engineering-loop-light.svg">
+  <img src="assets/engineering-loop-dark.svg" width="100%" alt="Production AI engineering loop">
+</picture>
 
 ---
 
-<div align="center">
+## 02 / SELECTED ENGINEERING
 
-## signals
+### [AgriPheno Fusion](https://github.com/hishammohamed445/AgriPheno-Fusion)
+
+**RGB/NIR crop phenotyping with sensor fusion — designed as a tested engineering MVP, not a notebook demo.**
+
+`Python` `OpenCV` `NumPy` `FastAPI` `Pydantic` `pytest` `Docker` `GitHub Actions`
+
+- Validates image alignment and sensor bounds before feature extraction.
+- Produces image-quality indicators, vegetation traits, NDVI statistics, and derived sensor features.
+- Includes synthetic fixtures so the software path can be exercised without shipping a large or ambiguously licensed dataset.
+- Documents what is heuristic, what is validated, and what still belongs in the production roadmap.
+
+[Repository →](https://github.com/hishammohamed445/AgriPheno-Fusion) · [CI →](https://github.com/hishammohamed445/AgriPheno-Fusion/actions/workflows/ci.yml)
+
+<br>
+
+### [Donut Invoice Intelligence](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
+
+**OCR-free document understanding for structured invoice extraction, from preprocessing and fine-tuning to inference and API serving.**
+
+`PyTorch` `Transformers` `Donut` `FastAPI` `Docker` `Python`
+
+- Covers preprocessing, model configuration, training, checkpointing, batch inference, and service delivery.
+- Keeps large model weights and third-party datasets out of the repository deliberately.
+- Runs dependency-light validation in CI without requiring multi-gigabyte model assets.
+- Publishes **no accuracy/F1 claim** until a reproducible held-out evaluation report exists.
+
+[Repository →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence) · [CI →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence/actions/workflows/ci.yml)
+
+---
+
+## 03 / CURRENT LAB
+
+### [Mini Agent](https://github.com/hishammohamed445/mini-agent) `EARLY-STAGE`
+
+A deliberately small FastAPI foundation for learning and building toward a RAG / tool-using agent service. The repository is currently infrastructure-first; retrieval, tool use, memory, and evaluation are roadmap items rather than finished claims.
+
+**Exploring:** `RAG` · `tool calling` · `agent loops` · `retrieval evaluation` · `orchestration`
+
+---
+
+## 04 / OPERATING RANGE
 
 <table>
 <tr>
-<td width="50%" align="center" valign="middle">
+<td width="33%" valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/focus-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/focus-map-light.svg">
-  <img src="assets/focus-map-dark.svg" width="100%" alt="Engineering focus map">
-</picture>
+**PERCEPTION & ML**
+
+`Python`  
+`PyTorch`  
+`OpenCV`  
+`Transformers`  
+`NumPy`
 
 </td>
-<td width="50%" align="center" valign="middle">
+<td width="33%" valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/systems-stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/systems-stack-light.svg">
-  <img src="assets/systems-stack-dark.svg" width="100%" alt="AI systems stack">
-</picture>
+**SERVICES**
+
+`FastAPI`  
+`Pydantic`  
+`REST APIs`  
+structured inference  
+batch pipelines
+
+</td>
+<td width="33%" valign="top">
+
+**DELIVERY & QUALITY**
+
+`Docker`  
+`GitHub Actions`  
+`pytest / unittest`  
+input validation  
+reproducible demos
 
 </td>
 </tr>
 </table>
 
-</div>
+---
+
+## 05 / ENGINEERING DEFAULTS
+
+- **Validate before inference.** Bad input should fail loudly instead of quietly corrupting downstream results.
+- **Separate evidence from aspiration.** Experimental heuristics, missing benchmarks, and production gaps should be labelled as such.
+- **Make projects runnable.** A useful repository needs setup, interfaces, tests, and a path another engineer can follow.
+- **Treat deployment as part of ML.** APIs, containers, configuration, CI, and failure boundaries are engineering work — not polish added at the end.
 
 ---
 
-<div align="center">
+## 06 / NEXT
 
-## selected systems
+I am focused on growing deeper in **production AI engineering**, especially computer vision systems, multimodal ML, RAG, and agentic workflows with real evaluation around them.
 
-</div>
-
-### VISION & DECISION (V&D)
-**Industrial safety intelligence for existing CCTV.** Real-time detection, tracking, temporal safety logic, incident evidence, alerts, and HSE workflows for PPE, falls, restricted zones, and forklift-worker proximity.
-
-`YOLO` · `OpenCV` · `ByteTrack` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker`
-
-[View engineering project →](https://github.com/s0ltan12/VisionSafe360)
-
-### [AgriPheno Fusion](https://github.com/hishammohamed445/AgriPheno-Fusion)
-**Multimodal crop phenotyping from RGB/NIR imagery and sensor data.** Includes image-quality checks, vegetation analysis, NDVI features, sensor fusion, validation, tests, CLI execution, and API delivery.
-
-`Python` · `OpenCV` · `NumPy` · `FastAPI` · `Pydantic` · `pytest` · `Docker`
-
-### [Donut Invoice Intelligence](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
-**OCR-free document understanding for structured invoice extraction.** Covers preprocessing, Donut fine-tuning, checkpointing, batch inference, FastAPI serving, and a lightweight client.
-
-`PyTorch` · `Transformers` · `Donut` · `FastAPI` · `Docker`
-
----
+Open to conversations around **AI Engineer, ML Engineer, and Computer Vision Engineer** work.
 
 <div align="center">
 
-## numbers
+<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hishammohamed445&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hishammohamed445&theme=github">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hishammohamed445&theme=github_dark" height="180" alt="GitHub statistics">
-</picture>
-&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hishammohamed445&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hishammohamed445&theme=github">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hishammohamed445&theme=github_dark" height="180" alt="Languages by repository">
-</picture>
+`BUILD → EVALUATE → SHIP`
 
-</div>
-
----
-
-<div align="center">
-
-**AI Engineer · Computer Vision · Machine Learning Systems**
-
-<sub>Cairo, Egypt · Open to AI / ML / Computer Vision opportunities</sub>
+<sub>Cairo, Egypt · <a href="mailto:hishamelbaaly@gmail.com">hishamelbaaly@gmail.com</a></sub>
 
 </div>

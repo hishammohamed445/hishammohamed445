@@ -1,89 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
   <title id="title">Hesham Mohamed — AI Engineer</title>
-  <desc id="desc">Engineering-console profile banner with a subtle animated computer-vision scan and production AI pipeline.</desc>
+  <desc id="desc">Editorial personal profile banner with restrained motion and a red accent.</desc>
 
-  <rect width="1200" height="420" fill="#F6F8FA"/>
-  <defs>
-    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="4"/>
-    </filter>
-  </defs>
+  <rect width="1200" height="390" fill="#F3F0EA"/>
+  <rect x="28" y="28" width="1144" height="334" fill="#FBF9F4" stroke="#D9D4CB"/>
 
-  <g stroke="#DCE3EA" stroke-width="1" opacity="0.82">
-    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
-    <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="62" y="74" fill="#74716D" font-size="12" font-weight="700" letter-spacing="2.8">HESHAM MOHAMED / PORTFOLIO</text>
+    <text x="1138" y="74" fill="#74716D" font-size="12" text-anchor="end" letter-spacing="2.2">CAIRO · 2026</text>
+
+    <text x="58" y="199" fill="#161616" font-size="88" font-weight="800" letter-spacing="-4.2">HESHAM</text>
+    <text x="58" y="286" fill="#161616" font-size="88" font-weight="800" letter-spacing="-4.2">MOHAMED</text>
+
+    <text x="62" y="330" fill="#66615C" font-size="15" letter-spacing="1.1">AI ENGINEER · COMPUTER VISION · APPLIED ML</text>
   </g>
 
-  <rect x="32" y="30" width="1136" height="360" rx="18" fill="#FFFFFF" stroke="#CDD6DF"/>
-  <path d="M32 81H1168" stroke="#D6DEE6"/>
+  <g transform="translate(814 118)">
+    <text x="0" y="0" fill="#77716B" font-family="Georgia, Times New Roman, serif" font-size="16" font-style="italic">I like building things that</text>
+    <text x="0" y="42" fill="#161616" font-family="Georgia, Times New Roman, serif" font-size="34" font-style="italic">work outside</text>
+    <text x="0" y="82" fill="#161616" font-family="Georgia, Times New Roman, serif" font-size="34" font-style="italic">the notebook.</text>
 
-  <circle cx="58" cy="56" r="4" fill="#0F9F8F"/>
-  <circle cx="75" cy="56" r="4" fill="#BAC5D0"/>
-  <circle cx="92" cy="56" r="4" fill="#BAC5D0"/>
-  <text x="112" y="61" fill="#667788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="1.5">PROFILE / SYSTEM_01</text>
-  <text x="1050" y="61" fill="#0F9F8F" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" text-anchor="end" letter-spacing="1.2">ONLINE</text>
-  <circle cx="1070" cy="57" r="4" fill="#0F9F8F">
-    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-  <text x="1138" y="61" fill="#7A8794" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" text-anchor="end">UTC+03</text>
+    <path d="M0 116H275" stroke="#C8C1B8"/>
+    <circle cx="0" cy="116" r="4" fill="#D92D20">
+      <animate attributeName="cx" values="0;275;0" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
 
-  <g transform="translate(72 118)">
-    <text x="0" y="0" fill="#667788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="2.6">HESHAM MOHAMED / AI ENGINEER</text>
-    <text x="0" y="68" fill="#15202B" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="-1.4">From perception</text>
-    <text x="0" y="123" fill="#15202B" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="-1.4">to production.</text>
-    <text x="0" y="164" fill="#526170" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="17">Computer Vision · ML Systems · Applied AI Engineering</text>
-
-    <g transform="translate(0 202)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.8">
-      <rect width="148" height="34" rx="17" fill="#F8FAFC" stroke="#CBD5DF"/>
-      <text x="74" y="22" text-anchor="middle" fill="#4C5D6C">BUILD</text>
-      <rect x="160" width="148" height="34" rx="17" fill="#F8FAFC" stroke="#CBD5DF"/>
-      <text x="234" y="22" text-anchor="middle" fill="#4C5D6C">EVALUATE</text>
-      <rect x="320" width="148" height="34" rx="17" fill="#ECFDF9" stroke="#0F9F8F" stroke-opacity="0.55"/>
-      <text x="394" y="22" text-anchor="middle" fill="#0B7F73">SHIP</text>
+    <g transform="translate(0 150)" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="1.7">
+      <text x="0" y="0" fill="#77716B">BUILD</text>
+      <text x="82" y="0" fill="#A9A39C">/</text>
+      <text x="104" y="0" fill="#77716B">TEST</text>
+      <text x="184" y="0" fill="#A9A39C">/</text>
+      <text x="206" y="0" fill="#2B2927">SHIP</text>
     </g>
   </g>
 
-  <g transform="translate(748 107)">
-    <rect x="0" y="0" width="355" height="230" rx="15" fill="#FBFCFD" stroke="#CDD6DF"/>
-    <text x="20" y="28" fill="#667788" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.7">VISION PIPELINE / LIVE</text>
-
-    <rect x="20" y="48" width="204" height="132" rx="10" fill="#F4F7F9" stroke="#D4DCE4"/>
-    <path d="M36 74H208M36 104H208M36 134H208M66 58V168M106 58V168M146 58V168M186 58V168" stroke="#E4E9EE"/>
-
-    <rect x="70" y="82" width="76" height="62" rx="4" fill="none" stroke="#0F9F8F" stroke-width="1.5">
-      <animate attributeName="x" values="70;82;70" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="width" values="76;68;76" dur="5s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="94" y="67" width="79" height="88" rx="4" fill="none" stroke="#0284C7" stroke-width="1.2" stroke-opacity="0.58"/>
-    <rect x="24" y="62" width="196" height="2" fill="#0F9F8F" opacity="0.75" filter="url(#softGlow)">
-      <animate attributeName="y" values="0;112;0" dur="4.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.8s" repeatCount="indefinite"/>
-    </rect>
-
-    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5">
-      <text x="31" y="197" fill="#738190">FRAME 01842</text>
-      <text x="145" y="197" fill="#0F9F8F">INFERENCE OK</text>
-    </g>
-
-    <g transform="translate(248 50)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-      <circle cx="8" cy="10" r="4" fill="#0F9F8F"/>
-      <path d="M8 18V123" stroke="#CAD4DD"/>
-      <circle cx="8" cy="45" r="4" fill="#AAB6C1"/>
-      <circle cx="8" cy="80" r="4" fill="#AAB6C1"/>
-      <circle cx="8" cy="115" r="4" fill="#AAB6C1"/>
-      <circle cx="8" cy="10" r="7" fill="#0F9F8F" opacity="0.16">
-        <animate attributeName="r" values="6;11;6" dur="2.6s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.32;0.05;0.32" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="22" y="14" fill="#23313D" font-size="10">INPUT</text>
-      <text x="22" y="49" fill="#697888" font-size="10">INFER</text>
-      <text x="22" y="84" fill="#697888" font-size="10">VALIDATE</text>
-      <text x="22" y="119" fill="#697888" font-size="10">SERVE</text>
-    </g>
-  </g>
-
-  <path d="M760 354H1087" stroke="#0F9F8F" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="5 8">
-    <animate attributeName="stroke-dashoffset" values="0;-52" dur="4s" repeatCount="indefinite"/>
-  </path>
-  <text x="1104" y="358" fill="#778592" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" text-anchor="end">MODEL → PIPELINE → API → PRODUCT</text>
+  <rect x="1120" y="306" width="18" height="18" rx="9" fill="#D92D20" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.24;0.08" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="1129" cy="315" r="3" fill="#D92D20"/>
 </svg>

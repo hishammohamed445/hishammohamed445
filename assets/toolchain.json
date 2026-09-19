@@ -1,0 +1,11 @@
+{
+  "title": "Toolchain Mix",
+  "axes": [
+    {"label":"Python","value":95},
+    {"label":"PyTorch","value":80},
+    {"label":"OpenCV","value":88},
+    {"label":"FastAPI","value":79},
+    {"label":"Docker","value":68},
+    {"label":"Git / CI","value":74}
+  ]
+}

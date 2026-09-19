@@ -1,100 +1,103 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
-  <img src="assets/profile-header-dark.svg" width="100%" alt="Hesham Mohamed">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-dark.svg" width="100%" alt="Hesham Mohamed profile">
 </picture>
 
 <br>
 
-<a href="https://www.linkedin.com/in/hisham-mohamed0">LinkedIn</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:hishamelbaaly@gmail.com">Email</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/hishammohamed445?tab=repositories">Repositories</a>
+<a href="https://github.com/hishammohamed445">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2700&pause=950&color=D92D24&center=true&vCenter=true&width=900&lines=Hesham+Mohamed+%E2%80%94+AI+Engineer;Computer+Vision+%2F+ML+Systems+%2F+Applied+AI;Build+it.+Test+it.+Make+it+usable." alt="Hesham Mohamed focus">
+</a>
+
+<br>
+
+<a href="https://www.linkedin.com/in/hisham-mohamed0"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
+<a href="mailto:hishamelbaaly@gmail.com"><img src="https://img.shields.io/badge/Email-171719?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;&nbsp;
+<a href="https://github.com/hishammohamed445?tab=repositories"><img src="https://img.shields.io/badge/Repositories-171719?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
 
 </div>
 
-<br>
+---
 
-## A little about me
+## this is me :)
 
-I'm **Hesham**, an AI engineer from Cairo.
+Hi, I'm **Hesham**, an AI engineer from Cairo.
 
-Most of my work lives somewhere between a model and the thing people actually use. I enjoy the messy middle: making inputs reliable, wiring models into services, testing what can go wrong, and turning experiments into software another person can run.
+I like the part of AI that starts after the first demo works — turning experiments into software that can be tested, explained, and used by someone else.
 
-Computer vision is where I feel most at home. Lately, I've also been spending more time with multimodal systems, document intelligence, RAG, and small agent workflows.
-
-I don't try to make every project look finished. If something is still an experiment, I prefer to say that plainly.
-
-<br>
-
-## Selected work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### AgriPheno Fusion
-
-A small but complete RGB/NIR phenotyping system that combines image analysis with environmental sensor data.
-
-The interesting part for me wasn't just calculating NDVI — it was making the whole path predictable: validation, quality checks, traits, API output, tests, Docker, and CI.
-
-**Python · OpenCV · FastAPI · Pydantic · Docker**
-
-[open project →](https://github.com/hishammohamed445/AgriPheno-Fusion)
-
-</td>
-<td width="50%" valign="top">
-
-### Donut Invoice Intelligence
-
-An OCR-free document understanding project built around Donut for extracting structured fields from invoices and receipts.
-
-It covers preprocessing, training, inference, and serving. I deliberately leave accuracy claims out until the project has a reproducible held-out evaluation report.
-
-**PyTorch · Transformers · Donut · FastAPI**
-
-[open project →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
-
-</td>
-</tr>
-</table>
-
-<br>
-
-### Mini Agent — work in progress
-
-A lightweight FastAPI base that I'm using to learn and build toward a small RAG / tool-using agent service. Right now it's intentionally early-stage; retrieval, tools, memory, and evaluation are things I'm adding rather than things I'm pretending are already done.
-
-[follow the build →](https://github.com/hishammohamed445/mini-agent)
-
-<br>
-
-## Things I reach for
-
-`Python` · `PyTorch` · `OpenCV` · `Transformers` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker` · `Git` · `Linux`
-
-Not a badge wall — just the tools that show up repeatedly in the work I care about.
-
-<br>
-
-## These days
-
-I'm getting deeper into **production AI**, with most of my attention on computer vision, multimodal ML, RAG, agentic workflows, and the evaluation that makes those systems worth trusting.
-
-I'm especially interested in work where the model is only part of the problem.
+- 👁️ **Computer vision is home base.** I enjoy perception problems, image pipelines, video systems, and the engineering around models.
+- 🧱 I care about the whole path: **input → model → validation → API → product**, not only training a model in a notebook.
+- 🧪 I would rather document a limitation than hide it behind a nice metric.
+- 🤖 Right now I'm going deeper into **RAG, tool-using agents, orchestration, and evaluation**.
+- 🌱 I am still early in my career, so this profile is also a record of what I am learning and shipping in public.
+- 💬 Talk to me about **Computer Vision, production ML, or why a model demo is not the same thing as a system**.
 
 <br>
 
 <div align="center">
 
-<sub>build carefully · test what matters · ship something useful</sub>
+## the tools I keep reaching for
 
-<br><br>
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,fastapi,postgres,redis,docker,linux,git,github,githubactions&perline=6" alt="Hesham Mohamed technical stack">
 
-Cairo, Egypt &nbsp;·&nbsp; <a href="mailto:hishamelbaaly@gmail.com">say hello</a>
+</div>
+
+---
+
+<div align="center">
+
+## signals
+
+<table><tr>
+<td width="50%" align="center" valign="middle">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/focus-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/focus-light.svg"><img src="assets/focus-dark.svg" width="410" alt="Current engineering focus"></picture>
+</td>
+<td width="50%" align="center" valign="middle">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolchain-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/toolchain-light.svg"><img src="assets/toolchain-dark.svg" width="410" alt="Current toolchain mix"></picture>
+</td>
+</tr></table>
+
+<sub>These charts describe what my current public work is concentrated around — not a claim that skills can be measured as a percentage.</sub>
+
+</div>
+
+---
+
+<div align="center">
+
+## selected builds
+
+</div>
+
+<table><tr>
+<td width="50%" valign="top"><a href="https://github.com/hishammohamed445/AgriPheno-Fusion"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agripheno-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-agripheno-light.svg"><img src="assets/card-agripheno-dark.svg" width="100%" alt="AgriPheno Fusion"></picture></a></td>
+<td width="50%" valign="top"><a href="https://github.com/hishammohamed445/Donut-Invoice-Intelligence"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-donut-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-donut-light.svg"><img src="assets/card-donut-dark.svg" width="100%" alt="Donut Invoice Intelligence"></picture></a></td>
+</tr></table>
+
+<div align="center"><a href="https://github.com/hishammohamed445/mini-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-mini-agent-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-mini-agent-light.svg"><img src="assets/card-mini-agent-dark.svg" width="52%" alt="Mini Agent"></picture></a></div>
+
+---
+
+<div align="center">
+
+## a small portfolio snapshot
+
+<table><tr>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-summary-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-summary-light.svg"><img src="assets/card-summary-dark.svg" width="440" alt="Selected portfolio summary"></picture></td>
+<td width="50%" align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/card-languages-light.svg"><img src="assets/card-languages-dark.svg" width="440" alt="Selected work language signal"></picture></td>
+</tr></table>
+
+<sub>The cards are generated inside this repository from GitHub data. No public stats-card service sits between the profile and the assets.</sub>
+
+</div>
+
+---
+
+<div align="center">
+
+<sub>` build carefully · measure honestly · keep shipping `</sub>
 
 </div>

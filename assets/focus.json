@@ -1,0 +1,11 @@
+{
+  "title": "Engineering Focus",
+  "axes": [
+    {"label":"Computer Vision","value":92},
+    {"label":"ML Engineering","value":84},
+    {"label":"AI Services","value":76},
+    {"label":"Document AI","value":65},
+    {"label":"Evaluation","value":72},
+    {"label":"Agentic Systems","value":52}
+  ]
+}

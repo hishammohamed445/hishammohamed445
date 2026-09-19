@@ -1,0 +1,43 @@
+name: Profile assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 0"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "assets/*.json"
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install hero dependency
+        run: python -m pip install "Pillow>=10,<13"
+      - name: Generate personal hero
+        run: python scripts/hero.py --user "${{ github.repository_owner }}" --out assets
+      - name: Generate signal charts
+        run: |
+          python scripts/radar.py --data assets/focus.json --out assets/focus
+          python scripts/radar.py --data assets/toolchain.json --out assets/toolchain
+      - name: Generate self-hosted cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/cards.py --user "${{ github.repository_owner }}" --projects assets/projects.json --out assets
+      - name: Commit only when generated assets changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --staged --quiet || git commit -m "chore(profile): refresh generated assets"
+          git push

@@ -3,140 +3,98 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
-  <img src="assets/profile-header-dark.svg" width="100%" alt="Hesham Mohamed — AI Engineer">
+  <img src="assets/profile-header-dark.svg" width="100%" alt="Hesham Mohamed">
 </picture>
 
 <br>
 
 <a href="https://www.linkedin.com/in/hisham-mohamed0">LinkedIn</a>
-&nbsp;·&nbsp;
+&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="mailto:hishamelbaaly@gmail.com">Email</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/hishammohamed445">GitHub</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/hishammohamed445?tab=repositories">Repositories</a>
 
 </div>
 
----
+<br>
 
-## 01 / POSITION
+## A little about me
 
-I build AI systems where the model is only one part of the job: **input validation, perception, inference, evaluation, APIs, testing, and reproducible delivery**.
+I'm **Hesham**, an AI engineer from Cairo.
 
-My strongest public work currently sits across **computer vision, multimodal data, document intelligence, and ML-backed services**. I care about making technical limits visible — if a benchmark is not reproducible, I would rather leave the number out than turn it into marketing.
+Most of my work lives somewhere between a model and the thing people actually use. I enjoy the messy middle: making inputs reliable, wiring models into services, testing what can go wrong, and turning experiments into software another person can run.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/engineering-loop-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/engineering-loop-light.svg">
-  <img src="assets/engineering-loop-dark.svg" width="100%" alt="Production AI engineering loop">
-</picture>
+Computer vision is where I feel most at home. Lately, I've also been spending more time with multimodal systems, document intelligence, RAG, and small agent workflows.
 
----
-
-## 02 / SELECTED ENGINEERING
-
-### [AgriPheno Fusion](https://github.com/hishammohamed445/AgriPheno-Fusion)
-
-**RGB/NIR crop phenotyping with sensor fusion — designed as a tested engineering MVP, not a notebook demo.**
-
-`Python` `OpenCV` `NumPy` `FastAPI` `Pydantic` `pytest` `Docker` `GitHub Actions`
-
-- Validates image alignment and sensor bounds before feature extraction.
-- Produces image-quality indicators, vegetation traits, NDVI statistics, and derived sensor features.
-- Includes synthetic fixtures so the software path can be exercised without shipping a large or ambiguously licensed dataset.
-- Documents what is heuristic, what is validated, and what still belongs in the production roadmap.
-
-[Repository →](https://github.com/hishammohamed445/AgriPheno-Fusion) · [CI →](https://github.com/hishammohamed445/AgriPheno-Fusion/actions/workflows/ci.yml)
+I don't try to make every project look finished. If something is still an experiment, I prefer to say that plainly.
 
 <br>
 
-### [Donut Invoice Intelligence](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
-
-**OCR-free document understanding for structured invoice extraction, from preprocessing and fine-tuning to inference and API serving.**
-
-`PyTorch` `Transformers` `Donut` `FastAPI` `Docker` `Python`
-
-- Covers preprocessing, model configuration, training, checkpointing, batch inference, and service delivery.
-- Keeps large model weights and third-party datasets out of the repository deliberately.
-- Runs dependency-light validation in CI without requiring multi-gigabyte model assets.
-- Publishes **no accuracy/F1 claim** until a reproducible held-out evaluation report exists.
-
-[Repository →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence) · [CI →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence/actions/workflows/ci.yml)
-
----
-
-## 03 / CURRENT LAB
-
-### [Mini Agent](https://github.com/hishammohamed445/mini-agent) `EARLY-STAGE`
-
-A deliberately small FastAPI foundation for learning and building toward a RAG / tool-using agent service. The repository is currently infrastructure-first; retrieval, tool use, memory, and evaluation are roadmap items rather than finished claims.
-
-**Exploring:** `RAG` · `tool calling` · `agent loops` · `retrieval evaluation` · `orchestration`
-
----
-
-## 04 / OPERATING RANGE
+## Selected work
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**PERCEPTION & ML**
+### AgriPheno Fusion
 
-`Python`  
-`PyTorch`  
-`OpenCV`  
-`Transformers`  
-`NumPy`
+A small but complete RGB/NIR phenotyping system that combines image analysis with environmental sensor data.
 
-</td>
-<td width="33%" valign="top">
+The interesting part for me wasn't just calculating NDVI — it was making the whole path predictable: validation, quality checks, traits, API output, tests, Docker, and CI.
 
-**SERVICES**
+**Python · OpenCV · FastAPI · Pydantic · Docker**
 
-`FastAPI`  
-`Pydantic`  
-`REST APIs`  
-structured inference  
-batch pipelines
+[open project →](https://github.com/hishammohamed445/AgriPheno-Fusion)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**DELIVERY & QUALITY**
+### Donut Invoice Intelligence
 
-`Docker`  
-`GitHub Actions`  
-`pytest / unittest`  
-input validation  
-reproducible demos
+An OCR-free document understanding project built around Donut for extracting structured fields from invoices and receipts.
+
+It covers preprocessing, training, inference, and serving. I deliberately leave accuracy claims out until the project has a reproducible held-out evaluation report.
+
+**PyTorch · Transformers · Donut · FastAPI**
+
+[open project →](https://github.com/hishammohamed445/Donut-Invoice-Intelligence)
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## 05 / ENGINEERING DEFAULTS
+### Mini Agent — work in progress
 
-- **Validate before inference.** Bad input should fail loudly instead of quietly corrupting downstream results.
-- **Separate evidence from aspiration.** Experimental heuristics, missing benchmarks, and production gaps should be labelled as such.
-- **Make projects runnable.** A useful repository needs setup, interfaces, tests, and a path another engineer can follow.
-- **Treat deployment as part of ML.** APIs, containers, configuration, CI, and failure boundaries are engineering work — not polish added at the end.
+A lightweight FastAPI base that I'm using to learn and build toward a small RAG / tool-using agent service. Right now it's intentionally early-stage; retrieval, tools, memory, and evaluation are things I'm adding rather than things I'm pretending are already done.
 
----
-
-## 06 / NEXT
-
-I am focused on growing deeper in **production AI engineering**, especially computer vision systems, multimodal ML, RAG, and agentic workflows with real evaluation around them.
-
-Open to conversations around **AI Engineer, ML Engineer, and Computer Vision Engineer** work.
-
-<div align="center">
+[follow the build →](https://github.com/hishammohamed445/mini-agent)
 
 <br>
 
-`BUILD → EVALUATE → SHIP`
+## Things I reach for
 
-<sub>Cairo, Egypt · <a href="mailto:hishamelbaaly@gmail.com">hishamelbaaly@gmail.com</a></sub>
+`Python` · `PyTorch` · `OpenCV` · `Transformers` · `FastAPI` · `PostgreSQL` · `Redis` · `Docker` · `Git` · `Linux`
+
+Not a badge wall — just the tools that show up repeatedly in the work I care about.
+
+<br>
+
+## These days
+
+I'm getting deeper into **production AI**, with most of my attention on computer vision, multimodal ML, RAG, agentic workflows, and the evaluation that makes those systems worth trusting.
+
+I'm especially interested in work where the model is only part of the problem.
+
+<br>
+
+<div align="center">
+
+<sub>build carefully · test what matters · ship something useful</sub>
+
+<br><br>
+
+Cairo, Egypt &nbsp;·&nbsp; <a href="mailto:hishamelbaaly@gmail.com">say hello</a>
 
 </div>
